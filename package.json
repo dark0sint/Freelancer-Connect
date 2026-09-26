@@ -1,0 +1,22 @@
+{
+  "name": "freelancer-connect",
+  "version": "1.0.0",
+  "description": "Freelancer Connect - platform sosial dan marketplace freelance dengan profil, portofolio, gig, escrow, ulasan, dan pesan langsung.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.4.5"
+  }
+}
